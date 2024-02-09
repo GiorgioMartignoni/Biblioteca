@@ -49,7 +49,7 @@ namespace Gestionale_Libreria.Controllers
             if (newLibro is null)
                 return NotFound();
             LibroService.Update(libro);
-            return Ok("ERRORE");
+            return NoContent();
         }
 
         //Richiesta Delete
