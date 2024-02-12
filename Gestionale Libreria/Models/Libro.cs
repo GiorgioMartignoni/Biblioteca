@@ -1,4 +1,8 @@
-﻿namespace Gestionale_Libreria.Models
+﻿//MODIFICA
+using Microsoft.EntityFrameworkCore;
+
+
+namespace Gestionale_Libreria.Models
 {
         public class Libro
         {
@@ -10,4 +14,6 @@
             public int idScaffale { get; set; }
 
     }
+
+  
 }
