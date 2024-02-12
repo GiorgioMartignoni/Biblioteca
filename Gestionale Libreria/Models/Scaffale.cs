@@ -6,5 +6,7 @@
         public int id { get; set; }
         public char code { get; set; }
 
+        //public List<Libro> Libri { get; set; }
+
     }
 }

@@ -5,6 +5,7 @@
         //Attributi classe Genere
         public int id { get; set; }
         public string? descrizione { get; set; }
+        //public List<Libro> Libri { get; set; }
 
     }
 

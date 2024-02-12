@@ -11,7 +11,7 @@ namespace Gestionale_Libreria.Services
         static List<Libro> Libri = new List<Libro>() { };
 
         //Conta id 
-        static int contaID = 0;
+        //static int contaID = 0;
 
         //Metodo GetAll() che ritornerà la lista di libri
         public static List<Libro> GetAll() => Libri;
@@ -22,7 +22,7 @@ namespace Gestionale_Libreria.Services
         //Metodo Add(libro)
         public static void Add(Libro libro)
         {
-            libro.id = contaID++;
+            //libro.id = contaID++;
             Libri.Add(libro);
         }
 
